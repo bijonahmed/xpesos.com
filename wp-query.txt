@@ -1,0 +1,14 @@
+find product relation :
+SELECT product_id,post_title,post_excerpt,post_name,sku,min_price,max_price,rating_count,stock_quantity,stock_status FROM 
+wpqv_posts RIGHT JOIN wpqv_wc_product_meta_lookup ON wpqv_wc_product_meta_lookup.product_id=wpqv_posts.ID WHERE 1
+
+
+find product category:
+SELECT * FROM `wpqv_term_relationships`
+LEFT JOIN wpqv_term_taxonomy ON wpqv_term_taxonomy.term_taxonomy_id = wpqv_term_relationships.term_taxonomy_id 
+LEFT JOIN wpqv_terms ON wpqv_terms.term_id = wpqv_term_taxonomy.term_id WHERE `object_id` = 874 AND wpqv_term_taxonomy.taxonomy = "product_cat"
+
+
+SELECT product_id, post_title, post_excerpt, post_name, sku, min_price, max_price, rating_count, stock_quantity, 
+stock_status FROM wpqv_posts RIGHT JOIN wpqv_wc_product_meta_lookup ON wpqv_wc_product_meta_lookup.product_id = wpqv_posts.ID
+ WHERE 1 AND post_name IS NOT NULL

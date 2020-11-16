@@ -1,0 +1,1 @@
+[10-Jan-2020 03:43:58 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/hellocourierbd/public_html/test/app/Http/Controllers/HomeController.php on line 3

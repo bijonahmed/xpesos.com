@@ -1,0 +1,178 @@
+.mb-40{
+	margin-bottom: 40px!important;
+}
+.ps-product-list .ps-section__content-new{
+	padding-top: 10px;
+}
+.shoping-pera{
+	text-align: justify; padding: 7px;
+}
+.bgClrBeguni{
+	background-color: #0000FF!important;
+	color:white;
+}
+.bgClrBlue{
+	background-color: #0000FF!important;
+}
+.ps-section--furniture-new{display: none;}
+
+.header--mobile.header--sticky .navigation--mobile{background-color: transparent;}
+
+.bg-white{background-color: #fff;}
+.ps-form--account{padding-top: 0px; padding-bottom: 30px;}
+.ps-breadcrumb{padding: 5px 0; background-color: #ffffff;}
+.ps-section--shopping{padding: 10px 0;}
+#homepage-3 .ps-site-features{padding: 10px 0;}
+
+
+
+
+.sell-spesos-link
+{
+    font-weight: bold;
+    color: #199aa7;
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+    .ps-banner--market-1 {
+       min-height: 165px;
+        background-size: 625px 200px !important;
+        background-repeat: no-repeat !important;
+    }
+    .ps-site-features{display: none;}
+    .ps-best-sale-brands .ps-image-list-new{border: none;}
+    .ps-best-sale-brands .ps-image-list li.own-li{min-width: 23%; max-width: 23%; border: none; align-items: baseline;}
+    .ps-best-sale-brands .ps-image-list li.own-li p{text-align: center; font-size: 10px; margin-top: 5px;}
+    .ps-section--furniture-new{display: block; padding: 20px 0;}
+    .ps-product-list .ps-section__header{display: none;}
+    .header--mobile .ps-search--mobile{background-color: #ffffff;}
+    .ps-form--search-mobile input{border: 1px solid #ddd;}
+    .dsply-none{display: none;}
+    .ps-newsletter{padding: 10px 0;}
+    .ps-footer{padding-top: 10px;}
+    .ps-product-list {
+        padding-top: 30px;
+        border-bottom: 5px solid gray;
+    }
+    .ps-best-sale-brands{border-bottom: 5px solid gray;}
+    
+}
+@media only screen and (max-width: 1199px){
+    .header--mobile .navigation--mobile{background-color: #ffffff;}
+}
+
+
+
+
+
+
+
+
+
+
+.ps-section--shopping .ps-section__header{padding-bottom: 0px;}
+
+
+
+
+.ps-section--vendor{padding: 20px 0;}
+
+
+.ps-block--vendor-milestone{padding-bottom: 0px;}
+
+.ps-block--vendor-milestone .ps-block__left ul li{margin-bottom: 10px;}
+
+.ps-vendor-best-fees .ps-section__desc > figure figcaption{margin-bottom: 20px;}
+
+.tinking-text{width: 60%; margin: 0 auto;}
+
+.ps-vendor-faqs figure{margin-bottom: 15px;}
+
+.ps-vendor-faqs figure figcaption{margin-bottom: 5px;}
+
+.ps-vendor-faqs .ps-section__footer{padding-top: 15px;}
+
+.ps-vendor-faqs .ps-section__footer p{margin-bottom: 15px;}
+
+
+.fps-form__content-new
+{
+    padding: 20px;
+    background: #fff;
+    transition: box-shadow .25s ease-in-out;
+    box-shadow: 1px 1px 20px 0px #E9E9E9;
+    border-radius: 3px;
+    width: 90%;
+    margin: 25px auto;
+}
+.fps-form__content-new label{font-style: italic; font-weight: bold;}
+.ps-btn-regis{width: 150px!important;}
+
+.required{color: red; margin-left: 2px;}
+.register-h2{margin-bottom: 25px;}
+
+
+
+
+
+
+
+
+
+.header--standard .ps-form--quick-search button{
+    background-color: #f68b1e;
+}
+.header--standard .header__extra span{background-color: #f68b1e;}
+.ps-btn, button.ps-btn{background-color: #f68b1e;}
+.widget_contact-us .widget_content h3{color: #f68b1e;}
+.header--standard .header__top-links > li > a{
+    font-weight: bold;
+    color: #199aa7;
+    padding-right: 10px;
+}
+
+.ps-best-sale-brands{padding: 20px 0;}
+.ps-newsletter{padding: 35px 0; background: #232F3E; border-color: gray;}
+.ps-footer{padding-top: 20px; background: #131A22;}
+.ps-footer__widgets{margin-bottom: 10px;}
+.ps-footer__copyright{padding: 15px 0px;}
+.form-group--nest input{background-color: #fff;}
+.ps-form--newsletter h3{color: white;}
+.ps-form--newsletter p{color: #eae3e3;}
+.widget_footer .widget-title{color: #fff;}
+.ps-list--link li a{color: #fff;}
+.widget_content p{color: #fff;}
+.ps-footer__copyright p{color: #fff;}
+.ps-footer__copyright{border-color: gray;}
+
+
+
+
+
+.download-section{background: #f8f8f8; margin: 15px 0px;}
+.download-text{padding: 25px 0; padding-top: 30px;}
+.download-text h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.download-text p{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.download_icon{margin-bottom: 15px;}
+
+
+
+
+
+
+
+
+
+
+/**/
